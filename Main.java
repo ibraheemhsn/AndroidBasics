@@ -22,4 +22,11 @@ button.setOnClickListener(new OnClickListener() {
 });
 
 //------------------------------------------------------------------
-// 
+// start new acivity
+     public void startActivity2(View view) {
+     Intent myIntent = new Intent(this, Main2Activity.class);
+     // Main2Activity is new actitiy defined by xml layout and class java file.
+     startActivity(myIntent);
+    }
+
+ //-----------------------------------------------------------------
