@@ -1,4 +1,12 @@
+//------------------------------------------------------------------
+// show activity
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
 
+//-------------------------------------------------------------------
+// OnClickListener
 Button button = (Button) findViewById(R.id.button1);
 /* or 
 final Button button;
@@ -12,3 +20,6 @@ button.setOnClickListener(new OnClickListener() {
         Toast.makeText(MainActivity.this, "Button Clicked", Toast.LENGTH_SHORT).show();
         }
 });
+
+//------------------------------------------------------------------
+// 
