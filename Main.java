@@ -58,6 +58,8 @@ button.setOnClickListener(new OnClickListener() {
         Long phoneLong = b.getLong("phone");
         String ageDouble = b.getDouble("age");
         String isMarriedBoolean = b.getBoolean("isMarried");
-        // do anything here
+        
+        // now do anything here received data
+        text1.setText ("full name :" + nameString);
 
 //---------------------------------------------------------------------
