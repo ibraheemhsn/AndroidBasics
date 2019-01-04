@@ -65,3 +65,21 @@ button.setOnClickListener(new OnClickListener() {
         
         // from mainfeast set which activity will lunch first, by set intent-filter 
 //---------------------------------------------------------------------
+// getResources from res xml files
+        String dep = getResources().getString(R.string.dep);
+        String[] jobs = getResources().getStringArray(R.array.jobs);
+        // see strings and arrays in string.xml file
+        <string name="dep">computer engineer</string>
+        <string-array name="jobs">
+                <item name="technical" />
+                <item name="sales" />
+        </string-array>
+        
+        // how get string value from xml into xml
+        @string/dep
+        @string/etc...
+                
+//------------------------------------------------------------------------
+
+        
+         
