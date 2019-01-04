@@ -80,6 +80,10 @@ button.setOnClickListener(new OnClickListener() {
         @string/etc...
                 
 //------------------------------------------------------------------------
+// style.xml video 20
+// https://www.youtube.com/watch?v=nBNGl1H69M0&index=20&list=PLF8OvnCBlEY3e0Yg990aAXreEru72_xWN               
+           
+//-----------------------------------------------------------------------
 
         
          
