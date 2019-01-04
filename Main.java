@@ -47,3 +47,17 @@ button.setOnClickListener(new OnClickListener() {
         startActivity(myIntent);
 
 //--------------------------------------------------------------------
+// get data in second activity
+                
+        // get coming bundle and intenet
+        Intent in = getIntent();
+        Bundle b = in.getExtras();
+        
+        // get data from bundle
+        String nameString = b.getString("fullname");
+        Long phoneLong = b.getLong("phone");
+        String ageDouble = b.getDouble("age");
+        String isMarriedBoolean = b.getBoolean("isMarried");
+        // do anything here
+
+//---------------------------------------------------------------------
