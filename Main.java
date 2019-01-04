@@ -48,6 +48,7 @@ button.setOnClickListener(new OnClickListener() {
 
 //--------------------------------------------------------------------
 // get data in second activity
+// https://examples.javacodegeeks.com/android/core/os/android-bundle-example/
                 
         // get coming bundle and intenet
         Intent in = getIntent();
@@ -61,5 +62,6 @@ button.setOnClickListener(new OnClickListener() {
         
         // now do anything here received data
         text1.setText ("full name :" + nameString);
-
+        
+        // from mainfeast set which activity will lunch first, by set intent-filter 
 //---------------------------------------------------------------------
