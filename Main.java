@@ -30,3 +30,20 @@ button.setOnClickListener(new OnClickListener() {
     }
 
  //-----------------------------------------------------------------
+// start new activity with sent data
+        //creat bunndle
+        Bundle b = new Bundle();
+        
+        //store data into bundle
+        b.putString("fullname", fullname);
+        b.putLong("phoneNumber", phone);
+        b.putDouble("age", ageDouble);
+        b.putBoolean("married", isMarried);
+        
+        //create intent
+        Intent myIntent = new Intent(this, Main2Activity.class);
+        //send data to activity and start it
+        in.putExtras(b);
+        startActivity(myIntent);
+
+//--------------------------------------------------------------------
